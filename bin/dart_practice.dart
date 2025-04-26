@@ -51,9 +51,57 @@ import 'dart:io';
 //   print(r'Dia baru saja membeli komputer seharga $1,000.00');
 // }
 
-void main() {
-  print('Hi \u2665');
+// void main() {
+//   print('Hi \u2665');
+// }
+
+// void main(){
+//   if (true){
+//     print("It's true");
+//   }else{
+//     print("It's false");
+//   }
+// }
+
+
+//Operator
+// void main(){
+//   var a = 10;
+//   var b = 20;
+//   var sum = a + b;
+//   print(sum);
+// }
+
+// void main() {
+//   print(5 + 2); // int add = 7
+//   print(5 - 2); // int subtract = 3
+//   print(5 * 2); // int multiply = 10
+//   print(5 / 2); // double divide = 2.5
+//   print(11 ~/ 2); // int intDivide = 2
+//   print(5 % 2); // int modulo = 1
+// }
+
+// void main(){
+//   var a = 0;
+//   var b = 1;
+//   a++;
+//   b--;
+//   print(a);
+//   print(b);
+// }
+
+
+//Exceptions
+void main(){
+  try{
+    var a = 7;
+    var b = 0;
+    print(a ~/ b);
+  }catch(e, s){
+    print("Exception happened: $e");
+    print("Stack trace: $s");
+  }finally { //Finally tidak menghiraukan catch dan try ia akan tetap berjalan
+    print('This line still executed');
+  }
 }
 
-/// Output:
-/// Hi ♥
