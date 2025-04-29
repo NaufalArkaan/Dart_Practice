@@ -92,16 +92,61 @@ import 'dart:io';
 
 
 //Exceptions
-void main(){
-  try{
-    var a = 7;
-    var b = 0;
-    print(a ~/ b);
-  }catch(e, s){
-    print("Exception happened: $e");
-    print("Stack trace: $s");
-  }finally { //Finally tidak menghiraukan catch dan try ia akan tetap berjalan
-    print('This line still executed');
-  }
-}
+// void main(){
+//   try{
+//     var a = 7;
+//     var b = 0;
+//     print(a ~/ b);
+//   }catch(e, s){
+//     print("Exception happened: $e");
+//     print("Stack trace: $s");
+//   }finally { //Finally tidak menghiraukan catch dan try ia akan tetap berjalan
+//     print('This line still executed');
+//   }
+// }
 
+
+//Variable Scope
+// void main(){
+//   var isAvialableForDiscount = true;
+//   var price = 300000;
+//   num discount = 0;
+//
+//   if (isAvialableForDiscount){
+//     discount = 10 / 100 * price;
+//   }
+//     print("You need to pay ${price - discount}");
+// }
+
+// void main(){
+//   var price = 300000;
+//   var discount = hitungDiscount(price);
+//   print("Total discound adalah ${price - discount}");
+// }
+//
+// num hitungDiscount(price){
+//   num discount = 0;
+//   if (price >= 100000){
+//     discount = 10 / 100 * price;
+//   }
+//   return discount;
+// }
+
+
+//null safety
+// void main(){
+//   int age = null;               // Compile error
+//   String? favoriteFood = null;
+// }
+
+
+//if else condition
+void main() {
+  var isRaining = true;
+
+  print('Prepare before going to office.');
+  if (isRaining) {
+    print("Oh. It's raining, bring an umbrella.");
+  }
+  print('Going to the office.');
+}
