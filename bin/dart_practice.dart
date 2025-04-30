@@ -141,12 +141,35 @@ import 'dart:io';
 
 
 //if else condition
-void main() {
-  var isRaining = true;
+// void main() {
+//   var isRaining = true;
+//
+//   print('Prepare before going to office.');
+//   if (isRaining) {
+//     print("Oh. It's raining, bring an umbrella.");
+//   }
+//   print('Going to the office.');
+// }
 
-  print('Prepare before going to office.');
-  if (isRaining) {
-    print("Oh. It's raining, bring an umbrella.");
+
+//if else condition
+// void main(){
+//   var openHours = 20;
+//   var closedHours = 10;
+//   var now = 17;
+//
+//   if(now < openHours && closedHours < now){
+//     print('open');
+//   }else{
+//     print('close');
+//   }
+//
+// }
+
+
+//for loop
+void main(){
+  for(int i = 0; i < 10; i++){
+    print(i);
   }
-  print('Going to the office.');
 }
