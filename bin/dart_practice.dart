@@ -192,7 +192,59 @@ import 'dart:io';
 
 
 //collections
-void main(){
-  List dynamictList = [1, "Dicoding", true];
-  print(dynamictList[1]);
+// void main(){
+//   List dynamictList = [1, "Dicoding", true];
+//   print(dynamictList[1]);
+// }
+
+
+//list
+// void main(){
+//   List<String> stringList = ["hai", "hahah", "hihi"];
+//   stringList.forEach((s) => print(s));
+// }
+
+// void main(){
+//   List<String> stringList = ["hoho", "haha", "hihi"];
+//   stringList.add("hehe"); //menambah elemen
+//   print(stringList);
+//   stringList.insert(0, "huhu"); //menambah elemen sesuai dengan indeks yang kita mau
+//   print(stringList);
+//   stringList[1] = 'Application'; //mengubah value elemen
+//   print(stringList);
+//   stringList.remove('Application'); //menghapus elemen di list
+//   print(stringList);
+// }
+
+// void main() {
+//   var favorites = ['Seafood', 'Salad', 'Nugget', 'Soup'];
+//   var others = ['Cake', 'Pie', 'Donut'];
+//   var allFavorites = [favorites, others];
+//   print(allFavorites);
+// }
+
+// void main() {
+//   List<dynamic>? list;
+//   List<dynamic>? list2 = [0, ...?list];
+//   print(list2);
+// }
+
+
+//Set
+// void main() {
+//   Set<int> anotherSet = new Set.from([1, 4, 6, 4, 1]);
+//
+//   print(anotherSet);
+// }
+
+
+//Map
+void main() {
+  var capital = {
+    'Jakarta': 'Indonesia',
+    'London': 'England',
+    'Tokyo': 'Japan',
+  };
+
+  print(capital['Jakarta']);
 }
